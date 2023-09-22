@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <h1>Form pendaftaran bimbel</h1>
+
+    <form action="#">
+        <label for="namalengkap">nama lengkap</label>
+        <br>
+        <br>
+        <input type="text" id="namalengkap" required name="namalengkap" placeholder="masukkan nama lengkap">
+
+        <br><br>
+        <label for="ttl">tanggal lahir</label>
+        <br><br>
+        <input type="date" required id="ttl" name="ttl">
+        <br><br>
+
+        <label for="email">email</label>
+        <br><br>
+        <input type="email" id="email" required name="email" placeholder="masukkan email anda">
+        <br><br>
+
+        <label for="notelp">nomor telepon</label>
+        <br><br>
+        <input type="number" id="notelp" required name="notelp">
+        <br><br>
+
+        <label for="jk">jenis kelamin</label>
+        <br><br>
+        <select id="jk" name="jk">
+            <option value="">pilih jenis kelamin</option>
+            <option value="perempuan">perempuan</option>
+            <option value="laki-laki">laki-laki</option>
+        </select>
+
+        <br><br>
+        <label for="mapel">mata pelajaran</label>
+        <br><br>
+        <input type="radio" id="inggris" name="inggris" value="inggris">
+        <label for="inggris">bahasa inggris</label>
+        <input type="radio" id="indo" name="indo" value="indo">
+        <label for="indo">bahasa indo</label>
+        <input type="radio" id="arab" name="arab" value="arab">
+        <label for="arab">bahasa arab</label>
+
+        <br><br>
+        <label for="password">password</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="masukkan password">
+
+        <br><br>
+        <label for="alamat">alamat lengkap</label>
+        <br>
+        <textarea id="alamat" name="alamat"></textarea>
+
+        <br><br>
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
